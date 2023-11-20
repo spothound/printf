@@ -6,7 +6,7 @@
 #    By: fnavarro <fnavarro@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/15 20:39:27 by fnavarro          #+#    #+#              #
-#    Updated: 2023/11/07 17:18:28 by fnavarro         ###   ########.fr        #
+#    Updated: 2023/11/07 17:36:00 by fnavarro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,9 +23,6 @@ CC = cc
 .PHONY: all clean fclean re
 
 all: $(NAME)
-
-bonus: $(OBJECTS) $(BONUS_OBJS)
-	ar rcs $(NAME) $(OBJS) $(BONUS_OBJS)
 
 $(NAME): $(OBJECTS)
 	ar -crs $(NAME) $(OBJECTS)

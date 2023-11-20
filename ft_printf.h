@@ -6,7 +6,7 @@
 /*   By: fnavarro <fnavarro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/15 21:01:58 by fnavarro          #+#    #+#             */
-/*   Updated: 2023/11/07 17:27:09 by fnavarro         ###   ########.fr       */
+/*   Updated: 2023/11/20 18:22:23 by fnavarro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,8 @@
 
 # include <stdlib.h>
 # include <stdarg.h>
+# include "libft.h"
+
+int	ft_printf(char const *format, ...);
 
 #endif

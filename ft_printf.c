@@ -6,11 +6,17 @@
 /*   By: fnavarro <fnavarro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 17:11:00 by fnavarro          #+#    #+#             */
-/*   Updated: 2023/11/07 17:21:00 by fnavarro         ###   ########.fr       */
+/*   Updated: 2023/11/20 18:25:59 by fnavarro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_printf.h"
+
 int	ft_printf(char const *format, ...)
 {
-	
+	while (format != NULL)
+	{
+		write(*format++);
+	}
+	return (0);
 }
